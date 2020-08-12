@@ -398,3 +398,4 @@ spawned uWSGI worker 4 (pid: 4484, cores: 2)
 [pid: 4479|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 867 bytes} [Wed Aug 12 10:14:57 2020] GET /user/order/3 => generated 3619 bytes in 619 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
 [pid: 4480|app: 0|req: 1/4] 127.0.0.1 () {42 vars in 822 bytes} [Wed Aug 12 10:16:28 2020] GET /user/order/1 => generated 3629 bytes in 2325 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
 [pid: 4482|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 808 bytes} [Wed Aug 12 10:16:45 2020] GET /index => generated 7497 bytes in 300 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+...brutally killing workers...
