@@ -1,0 +1,400 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 01:00:22 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35491 (port auto-assigned) fd 3
+Python version: 3.8.2 (default, Jul 16 2020, 14:00:26)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/jingping/dailyfresh
+Set PythonHome to /home/jingping/dailyfresh
+Python main interpreter initialized at 0x55da34d662c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55da34d662c0 pid: 11258 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11258)
+spawned uWSGI worker 1 (pid: 11261, cores: 2)
+spawned uWSGI worker 2 (pid: 11262, cores: 2)
+spawned uWSGI worker 3 (pid: 11264, cores: 2)
+spawned uWSGI worker 4 (pid: 11266, cores: 2)
+spawned uWSGI http 1 (pid: 11268)
+设置缓存
+[pid: 11264|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 751 bytes} [Tue Aug 11 16:01:21 2020] GET /index => generated 7497 bytes in 2554 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 11264|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 731 bytes} [Tue Aug 11 16:01:27 2020] GET /static/css/main.css => generated 179 bytes in 29 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 11264|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 714 bytes} [Tue Aug 11 16:01:27 2020] GET /static/js/slide.js => generated 179 bytes in 17 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 11262|app: 0|req: 1/4] 127.0.0.1 () {38 vars in 730 bytes} [Tue Aug 11 16:01:27 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 3221 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 11266|app: 0|req: 2/5] 127.0.0.1 () {38 vars in 738 bytes} [Tue Aug 11 16:01:27 2020] GET /static/js/jquery-1.12.4.min.js => generated 179 bytes in 3300 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 11266|app: 0|req: 2/6] 127.0.0.1 () {38 vars in 733 bytes} [Tue Aug 11 16:01:27 2020] GET /static/css/reset.css => generated 179 bytes in 3343 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 11264|app: 0|req: 4/7] 127.0.0.1 () {38 vars in 733 bytes} [Tue Aug 11 16:01:31 2020] GET /static/images/logo.png => generated 179 bytes in 10 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 11266|app: 0|req: 3/8] 127.0.0.1 () {38 vars in 730 bytes} [Tue Aug 11 16:01:31 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 11261|app: 0|req: 1/9] 127.0.0.1 () {38 vars in 712 bytes} [Tue Aug 11 16:01:31 2020] GET /static/js/slide.js => generated 179 bytes in 903 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 11266|app: 0|req: 4/10] 127.0.0.1 () {38 vars in 732 bytes} [Tue Aug 11 16:01:31 2020] GET /static/images/logo.png => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 11261|app: 0|req: 2/11] 127.0.0.1 () {36 vars in 667 bytes} [Tue Aug 11 16:01:33 2020] GET /favicon.ico => generated 179 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 11268)
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 01:36:52 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.8.2 (default, Jul 16 2020, 14:00:26)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/jingping/dailyfresh
+Set PythonHome to /home/jingping/dailyfresh
+Python main interpreter initialized at 0x561ea72a61d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x561ea72a61d0 pid: 12304 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12304)
+spawned uWSGI worker 1 (pid: 12306, cores: 2)
+spawned uWSGI worker 2 (pid: 12308, cores: 2)
+spawned uWSGI worker 3 (pid: 12310, cores: 2)
+spawned uWSGI worker 4 (pid: 12311, cores: 2)
+[pid: 12308|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 806 bytes} [Tue Aug 11 16:39:26 2020] GET /index => generated 7497 bytes in 2566 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12310|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 723 bytes} [Tue Aug 11 16:39:30 2020] GET /favicon.ico => generated 179 bytes in 3120 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+设置缓存
+[pid: 12308|app: 0|req: 2/3] 127.0.0.1 () {42 vars in 806 bytes} [Tue Aug 11 17:16:23 2020] GET /index => generated 7497 bytes in 1285 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12310|app: 0|req: 2/4] 127.0.0.1 () {42 vars in 806 bytes} [Tue Aug 11 17:18:16 2020] GET /index => generated 7497 bytes in 1290 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+设置缓存
+[pid: 12306|app: 0|req: 1/5] 127.0.0.1 () {42 vars in 806 bytes} [Tue Aug 11 18:31:42 2020] GET /index => generated 7497 bytes in 5006 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12308|app: 0|req: 3/6] 192.168.84.129 () {38 vars in 600 bytes} [Tue Aug 11 18:32:15 2020] GET /favicon.ico => generated 179 bytes in 47 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 05:29:48 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+设置缓存
+[pid: 12310|app: 0|req: 3/7] 127.0.0.1 () {42 vars in 811 bytes} [Tue Aug 11 20:30:32 2020] GET /index => generated 7497 bytes in 2838 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12306|app: 0|req: 2/8] 127.0.0.1 () {42 vars in 796 bytes} [Tue Aug 11 20:30:35 2020] GET /static/js/jquery-1.12.4.min.js => generated 179 bytes in 39 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 12308|app: 0|req: 5/9] 127.0.0.1 () {42 vars in 788 bytes} [Tue Aug 11 20:30:35 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 37 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 12308|app: 0|req: 5/10] 127.0.0.1 () {42 vars in 789 bytes} [Tue Aug 11 20:30:35 2020] GET /static/css/main.css => generated 179 bytes in 55 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 12311|app: 0|req: 2/11] 127.0.0.1 () {42 vars in 791 bytes} [Tue Aug 11 20:30:35 2020] GET /static/css/reset.css => generated 179 bytes in 3275 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 12311|app: 0|req: 2/12] 127.0.0.1 () {42 vars in 772 bytes} [Tue Aug 11 20:30:35 2020] GET /static/js/slide.js => generated 179 bytes in 3250 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 12306|app: 0|req: 3/13] 127.0.0.1 () {42 vars in 791 bytes} [Tue Aug 11 20:30:39 2020] GET /static/images/logo.png => generated 179 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 12310|app: 0|req: 4/14] 127.0.0.1 () {40 vars in 728 bytes} [Tue Aug 11 20:30:39 2020] GET /favicon.ico => generated 179 bytes in 112 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 12306|app: 0|req: 4/15] 127.0.0.1 () {42 vars in 811 bytes} [Tue Aug 11 20:59:34 2020] GET /index => generated 7497 bytes in 410 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12310|app: 0|req: 5/16] 127.0.0.1 () {42 vars in 801 bytes} [Tue Aug 11 21:09:18 2020] GET / => generated 179 bytes in 38 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+...brutally killing workers...
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 06:38:58 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.8.2 (default, Jul 16 2020, 14:00:26)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/jingping/dailyfresh
+Set PythonHome to /home/jingping/dailyfresh
+Python main interpreter initialized at 0x55e21bfe91e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e21bfe91e0 pid: 4842 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4842)
+spawned uWSGI worker 1 (pid: 4844, cores: 2)
+spawned uWSGI worker 2 (pid: 4846, cores: 2)
+spawned uWSGI worker 3 (pid: 4847, cores: 2)
+spawned uWSGI worker 4 (pid: 4849, cores: 2)
+设置缓存
+[pid: 4849|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 811 bytes} [Tue Aug 11 21:39:03 2020] GET /index => generated 7497 bytes in 2306 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 4849|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 811 bytes} [Tue Aug 11 21:45:49 2020] GET /index => generated 7497 bytes in 140 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 4847|app: 0|req: 1/3] 127.0.0.1 () {42 vars in 811 bytes} [Tue Aug 11 21:52:04 2020] GET /index => generated 7497 bytes in 1076 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 4847|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 852 bytes} [Tue Aug 11 21:52:13 2020] GET /cart/ => generated 2698 bytes in 113 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 4849|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 866 bytes} [Tue Aug 11 21:52:20 2020] GET /user/order/1 => generated 3629 bytes in 195 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 4846|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 873 bytes} [Tue Aug 11 21:52:23 2020] GET /user/order/1 => generated 3629 bytes in 1042 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 4849|app: 0|req: 4/7] 127.0.0.1 () {44 vars in 859 bytes} [Tue Aug 11 21:52:25 2020] GET /user/ => generated 4686 bytes in 69 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 4849|app: 0|req: 5/8] 127.0.0.1 () {44 vars in 866 bytes} [Tue Aug 11 21:52:28 2020] GET /user/address => generated 3265 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 4847|app: 0|req: 3/9] 127.0.0.1 () {42 vars in 825 bytes} [Tue Aug 11 21:57:21 2020] GET /user/address => generated 3265 bytes in 96 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 06:58:16 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 4849|app: 0|req: 6/10] 127.0.0.1 () {42 vars in 811 bytes} [Tue Aug 11 22:03:37 2020] GET /index => generated 7497 bytes in 68 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+...brutally killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:8080)
+running /home/jingping/dailyfresh/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 22:05:29 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8080 fd 3
+Python version: 3.8.2 (default, Jul 16 2020, 14:00:26)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/jingping/dailyfresh
+Set PythonHome to /home/jingping/dailyfresh
+Python main interpreter initialized at 0x55ca625db2b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 07:15:26 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.8.2 (default, Jul 16 2020, 14:00:26)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/jingping/dailyfresh
+Set PythonHome to /home/jingping/dailyfresh
+Python main interpreter initialized at 0x55ead34da1e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ead34da1e0 pid: 3591 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3591)
+spawned uWSGI worker 1 (pid: 3593, cores: 2)
+spawned uWSGI worker 2 (pid: 3594, cores: 2)
+spawned uWSGI worker 3 (pid: 3595, cores: 2)
+spawned uWSGI worker 4 (pid: 3596, cores: 2)
+[pid: 3595|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 725 bytes} [Tue Aug 11 22:15:43 2020] GET /favicon.ico => generated 179 bytes in 1873 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 3595|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 808 bytes} [Tue Aug 11 22:16:01 2020] GET /index => generated 7497 bytes in 2065 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 3593|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 860 bytes} [Tue Aug 11 22:17:08 2020] GET /user/order/1 => generated 3629 bytes in 1540 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 3593|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 853 bytes} [Tue Aug 11 22:17:15 2020] GET /cart/ => generated 2698 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 3593|app: 0|req: 3/5] 127.0.0.1 () {42 vars in 808 bytes} [Tue Aug 11 22:28:48 2020] GET /cart/ => generated 2698 bytes in 193 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 3593|app: 0|req: 4/6] 127.0.0.1 () {42 vars in 808 bytes} [Tue Aug 11 22:29:05 2020] GET /index => generated 7497 bytes in 49 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 3593|app: 0|req: 5/7] 127.0.0.1 () {42 vars in 806 bytes} [Tue Aug 11 22:48:17 2020] GET /inex => generated 179 bytes in 57 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 3594|app: 0|req: 1/8] 127.0.0.1 () {44 vars in 850 bytes} [Tue Aug 11 22:48:28 2020] GET /goods/1 => generated 9716 bytes in 3307 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 3594|app: 0|req: 2/9] 127.0.0.1 () {44 vars in 853 bytes} [Tue Aug 11 22:49:45 2020] GET /user/ => generated 4686 bytes in 72 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 3593|app: 0|req: 6/10] 127.0.0.1 () {44 vars in 852 bytes} [Tue Aug 11 22:49:54 2020] GET /goods/8 => generated 8839 bytes in 57 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+...brutally killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:8080)
+running /home/jingping/dailyfresh/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 23:11:14 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8080 fd 3
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Aug 11 19:13:59 2020] ***
+compiled with version: 9.3.0 on 11 August 2020 07:41:26
+os: Linux-5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/jingping/PycharmProjects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jingping/dailyfresh/bin/uwsgi
+chdir() to /home/jingping/PycharmProjects/dailyfresh
+your processes number limit is 7619
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.8.2 (default, Jul 16 2020, 14:00:26)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/jingping/dailyfresh
+Set PythonHome to /home/jingping/dailyfresh
+Python main interpreter initialized at 0x5649098151e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x5649098151e0 pid: 4477 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4477)
+spawned uWSGI worker 1 (pid: 4479, cores: 2)
+spawned uWSGI worker 2 (pid: 4480, cores: 2)
+spawned uWSGI worker 3 (pid: 4482, cores: 2)
+spawned uWSGI worker 4 (pid: 4484, cores: 2)
+[pid: 4479|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 725 bytes} [Wed Aug 12 10:14:18 2020] GET /favicon.ico => generated 179 bytes in 1705 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 4482|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 846 bytes} [Wed Aug 12 10:14:46 2020] GET /cart/ => generated 2698 bytes in 1546 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 4479|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 867 bytes} [Wed Aug 12 10:14:57 2020] GET /user/order/3 => generated 3619 bytes in 619 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 4480|app: 0|req: 1/4] 127.0.0.1 () {42 vars in 822 bytes} [Wed Aug 12 10:16:28 2020] GET /user/order/1 => generated 3629 bytes in 2325 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 4482|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 808 bytes} [Wed Aug 12 10:16:45 2020] GET /index => generated 7497 bytes in 300 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
